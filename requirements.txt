@@ -1,0 +1,9 @@
+discord.py
+arrow
+requests
+pytz
+ics
+aiohttp
+aiofiles
+discord-py-paginators
+python-dotenv
