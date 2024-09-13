@@ -10,8 +10,6 @@ from get_cours import get_events_for_today, get_events_for_tomorrow, get_next_ev
 from dotenv import dotenv_values
 
 config = dotenv_values(".env")
-CHANNEL_ID = 1282794736805216299
-SERVER_ID = 1282794736805216296
 paris_tz = pytz.timezone('Europe/Paris')
 notified_events = set()
 
