@@ -8,7 +8,7 @@ from typing import List, Dict, Union
 from dotenv import dotenv_values
 config = dotenv_values(".env")
 paris_tz = pytz.timezone('Europe/Paris')
-print(config)
+
 menus = [config['MENU1'], config['MENU2'], config['MENU3'], config['MENU4']]
 def clean_description(description):
     pattern = r"\(Exporté le:\s*\d{2}/\d{2}/\d{4}\s*\d{2}:\d{2}\)"
